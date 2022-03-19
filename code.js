@@ -17,7 +17,7 @@ function load_group() {
 		let scores = students[i].scores
 		
 
-		//создание строки и 3 ячеек
+		//создание строки и ячеек
 		let tr = document.createElement('tr')
 		let td1 = document.createElement('td')
 		let td2 = document.createElement('td')
@@ -68,7 +68,7 @@ function load_group_next() {
 			let group = students[i].group
 			let scores = students[i].scores
 
-			//создание строки и 3 ячеек
+			//создание строки и ячеек
 			let tr = document.createElement('tr')
 			let td1 = document.createElement('td')
 			let td2 = document.createElement('td')
