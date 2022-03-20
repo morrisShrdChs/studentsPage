@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<link rel="stylesheet" href="page.css">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Общая информация</title>
-	<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
-	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-	<script src='code.js'></script>
+	<script type="text/javascript" src="jquery-3.6.0.js"></script>
+	<script src="UI/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="code.js"></script>
+	<link rel="stylesheet" type="text/css" href="UI/jquery-ui.min.css">
+	<script type="text/javascript" src='code.js'></script>
 </head>
 <body onload='load_from_site(); load_group()'>
 	<div id='tbl_all'>
-		<li><a href="#tab-1" onclick="load_group()">И-02</a></li>
-		<li><a href="#tab-2" onclick="load_group_next()">И-01</a></li>
+		<ul>
+		`<li><a href="#tab-1" onclick="load_group()">И-02</a></li>
+		`<li><a href="#tab-2" onclick="load_group_next()">И-01</a></li>
+		</ul>
+	</div>
 </body>
 </html>

@@ -101,3 +101,6 @@ function load_group_next() {
 		}
 	}
 }
+$(document).ready(function() {
+	$("#tbl_all").tabs();
+ });
